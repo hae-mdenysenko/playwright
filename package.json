@@ -10,7 +10,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint ."
+      "pre-commit": "eslint . --quiet && git diff --exit-code"
     }
   },
   "keywords": [],
