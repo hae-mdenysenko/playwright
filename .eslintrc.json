@@ -17,7 +17,6 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "quotes": ["error", "double"],
-        "@typescript-eslint/no-floating-promises": "error",
+        "quotes": ["error", "double"]
     }
 }

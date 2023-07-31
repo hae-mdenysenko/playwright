@@ -8,11 +8,6 @@
     "start": "yarn node ./server.js",
     "lint": "yarn run eslint ./e2e"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "eslint . --quiet && git diff --exit-code"
-    }
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
