@@ -7,6 +7,7 @@ test("reer", async ({ page }) => {
   await expect(page).toHaveTitle(/Playwright/);
 });
 
+
 test.only("get started link", async ({ page }) => {
   await page.goto("https://playwright.dev/");
 
